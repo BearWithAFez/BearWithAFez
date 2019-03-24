@@ -63,6 +63,7 @@ header #login {
 	width: 70px;
 	background-color: #E5E5E6;
 	border: 0px;
+	font-size: 15px;
 }
 
 #login input[type=submit] {
