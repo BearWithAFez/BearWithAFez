@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Sniglet');
+
+body {
+	background-image: url(../img/textureBG.png);
+}
+
+header {
+	width: 100%;
+	height: 2rem;
+	border-bottom: 1px solid #484848;
+	background-color: #181818;
+	color: #bababa;
+	overflow: hidden;
+	text-align: center;
+	font-family: Sniglet;
+}
+
+.card img {
+	width: 10rem;
+	height: 14rem;
+}
+
+.card {
+	display: inline-block;
+	margin: 5px;
+}
+
+header h1 {
+	display: inline-block;
+	color: #bababa;
+	float: left;
+	height: 100%;
+	line-height: 2rem;
+	margin-left: .2rem;
+	font-size: 22px;
+}
+
+header #logo {
+	height: 1.6rem;
+	width: 1.6rem;
+	background: url('../img/Bears/Dark/neutral.png') no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+	margin-left: 1.5rem;
+	margin-top: .2rem;
+	margin-bottom: .2rem;
+}
+
+header #login {
+	float: right;
+	display: inline-block;
+	height: 100%;
+	margin-right: 1.5rem;
+}
+
+#login input[type=text], #login input[type=password] {
+	border-radius: 5px;
+	height: 60%;
+	margin: 7px 0 0 5px;
+	padding: 0 10px;
+	width: 100px;
+	background-color: #E5E5E6;
+	border: 0px;
+}
+
+#login input[type=submit] {
+	border-radius: 5px;
+	height: 20px;
+	margin: 5px 0 0 10px;
+	padding: 0 10px;
+	background-color: #81ce97;
+	border: 0px;
+	font-size: 15px;
+	font-family: sniglet;
+	cursor: pointer;
+}
+
+#login .welcome {
+	font-family: sniglet;
+	line-height: 2rem;
+}
+
+#login a {
+	color: #81ce97;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+body {
+	background-color: #222;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 1.5rem;
+	text-align: center;
+	font-size: 10px;
+	line-height: 1.5rem;
+	font-family: Sniglet;
+	border-top: 1px solid #484848;
+	background-color: #181818;
+	color: #bababa;
+}
+
+#sadBear {
+	background: url('../img/Bears/Dark/sad.png') no-repeat;
+	background-size: cover;
+	width: 12rem;
+	height: 11rem;
+	margin: 0 auto;
+}
+
+#boredBear {
+	background: url('../img/Bears/Dark/bored.png') no-repeat;
+	background-size: cover;
+	width: 12rem;
+	height: 11rem;
+	margin: 0 auto;
+}
+
+#content {
+	text-align: center;
+	color: #bababa;
+	font-family: Sniglet;
+	margin-bottom: 50px;
+}
+
+.collected {
+	list-style: none;
+	margin: 10px auto;
+	width: 100px;
+	height: 15px;
+}
+
+.collected li {
+	float: left;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	margin-left: 10px;
+	border: 1px solid #e5e5e5;
+	background: #e5e5e5;
+}
+
+.collected li:first-child {
+	margin-left: 0;
+}
+
+.collected .active {
+	background-color: #edb610;
+}
+
+.collected.complete input {
+	background-color: #81ce97;
+}
+
+.collected input {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	color: transparent;
+	cursor: pointer;
+	border: 0px;
+}
