@@ -32,7 +32,7 @@
 		$stmt = $db->prepare('UPDATE cards SET Copies=? WHERE Id=? AND SetCode="RNA"');
 		$stmt->execute(array($newCopies,$id));
 
-		header('location: landing.php');
+		header('location: landing.php#card-'.$id.'-RNA');
 		exit();
 	}
 
